@@ -17,7 +17,7 @@
 
 ---
 
-> Semantic drift detection for documentation. Cross-references your README against your actual codebase and reports every claim that is no longer true. Not link-checking. Not linting. Your README says one thing, your code says another, and nobody noticed. Until now.
+> You already have a README. driftmd checks if it's still accurate. It reads every claim your README makes, compares it against what's actually in your code, and tells you what's wrong. Broken links, missing files, removed CLI flags, stale env vars, wrong badge versions. If your README says it and your code doesn't back it up, driftmd catches it.
 
 ---
 

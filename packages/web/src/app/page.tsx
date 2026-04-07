@@ -37,8 +37,12 @@ export default function Home() {
             <h1 className="font-[Manrope] font-extrabold text-[clamp(2.5rem,11vw,8rem)] leading-[0.9] tracking-tighter text-white select-none mb-4">
               driftmd.
             </h1>
-            <p className="font-[JetBrains_Mono] text-xs sm:text-sm text-neutral-400 uppercase tracking-[0.25em] mb-8 md:mb-10 max-w-md mx-auto">
+            <p className="font-[JetBrains_Mono] text-xs sm:text-sm text-neutral-400 uppercase tracking-[0.25em] mb-4 max-w-md mx-auto">
               your readme is lying. driftmd catches it.
+            </p>
+            <p className="font-[JetBrains_Mono] text-[0.7rem] text-neutral-500 leading-relaxed mb-8 md:mb-10 max-w-lg mx-auto">
+              You already have a README. driftmd checks if it's still accurate.
+              It compares every claim against your actual code and tells you what's wrong.
             </p>
             <a
               href="https://www.npmjs.com/package/driftmd"
