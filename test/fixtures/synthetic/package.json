@@ -1,0 +1,9 @@
+{
+  "name": "synthetic-app",
+  "version": "3.2.1",
+  "description": "Synthetic test app for driftmd accuracy testing",
+  "main": "src/index.ts",
+  "bin": {
+    "synthetic": "src/cli.ts"
+  }
+}

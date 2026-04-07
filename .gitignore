@@ -1,0 +1,33 @@
+node_modules/
+dist/
+.turbo/
+*.tsbuildinfo
+.tsc-out/
+coverage/
+
+# Environment
+.env
+.env.local
+.env*.local
+
+# Next.js
+.next/
+out/
+
+# Vercel
+.vercel/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+
+.metals/

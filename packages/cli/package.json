@@ -1,0 +1,44 @@
+{
+  "name": "driftmd",
+  "version": "0.1.0",
+  "description": "Your README is lying. driftmd catches it.",
+  "type": "module",
+  "main": "./dist/src/index.js",
+  "bin": {
+    "driftmd": "./dist/bin/driftmd.js"
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@driftmd/core": "^0.1.0",
+    "commander": "^13",
+    "picocolors": "^1"
+  },
+  "devDependencies": {
+    "typescript": "^5.7",
+    "vitest": "^3",
+    "@types/node": "^22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ijtihed/driftmd.git",
+    "directory": "packages/cli"
+  },
+  "homepage": "https://github.com/Ijtihed/driftmd#readme",
+  "keywords": [
+    "readme",
+    "documentation",
+    "drift",
+    "validation",
+    "cli",
+    "lint"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}

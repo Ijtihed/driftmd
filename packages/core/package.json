@@ -1,0 +1,52 @@
+{
+  "name": "@driftmd/core",
+  "version": "0.1.0",
+  "description": "Semantic drift detection engine — cross-references READMEs against your codebase",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "fast-glob": "^3",
+    "remark-parse": "^11",
+    "unified": "^11",
+    "unist-util-visit": "^5"
+  },
+  "devDependencies": {
+    "@types/mdast": "^4.0.4",
+    "@types/node": "^22",
+    "typescript": "^5.7",
+    "vitest": "^3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ijtihed/driftmd.git",
+    "directory": "packages/core"
+  },
+  "homepage": "https://github.com/Ijtihed/driftmd#readme",
+  "keywords": [
+    "readme",
+    "documentation",
+    "drift",
+    "validation",
+    "lint",
+    "semantic"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "@driftmd/action",
+  "version": "0.1.0",
+  "description": "GitHub Action for driftmd — catch README drift in PRs",
+  "type": "module",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc --outDir .tsc-out && ncc build .tsc-out/index.js -o dist --source-map --license licenses.txt --no-cache",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@actions/core": "^1",
+    "@actions/github": "^6",
+    "@driftmd/core": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@vercel/ncc": "^0.38.4",
+    "typescript": "^5.7",
+    "vitest": "^3"
+  },
+  "license": "MIT"
+}

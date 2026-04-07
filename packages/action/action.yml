@@ -1,0 +1,67 @@
+name: 'driftmd'
+description: 'Detect README drift — cross-reference your README against your codebase'
+author: 'driftmd'
+
+inputs:
+  readme:
+    description: 'README file(s) to check (comma-separated)'
+    required: false
+    default: 'README.md'
+  checks:
+    description: 'Checks to run (comma-separated: file-references,dir-tree,internal-links,cli-flags,env-vars,badges)'
+    required: false
+    default: 'file-references,dir-tree,internal-links,cli-flags,env-vars,badges'
+  ignore:
+    description: 'Patterns to ignore (comma-separated)'
+    required: false
+    default: 'node_modules,dist,.git'
+  cli-entry:
+    description: 'Path to CLI entry point for flag extraction'
+    required: false
+  fail-on-error:
+    description: 'Fail the action if errors are found'
+    required: false
+    default: 'true'
+  comment-on-pr:
+    description: 'Post findings as a PR comment'
+    required: false
+    default: 'true'
+  github-token:
+    description: 'GitHub token for posting PR comments (defaults to GITHUB_TOKEN)'
+    required: false
+    default: '${{ github.token }}'
+  sarif-output:
+    description: 'Path to write SARIF file for GitHub code scanning'
+    required: false
+    default: ''
+  signatures:
+    description: 'Enable function signature checks'
+    required: false
+    default: 'false'
+  verify:
+    description: 'Enable LLM-verified deep checks'
+    required: false
+    default: 'false'
+  verify-provider:
+    description: 'LLM provider: ollama, anthropic, openai'
+    required: false
+    default: 'anthropic'
+  verify-api-key:
+    description: 'API key for LLM provider'
+    required: false
+
+outputs:
+  findings:
+    description: 'Number of findings'
+  has-errors:
+    description: 'Whether errors were found'
+  report:
+    description: 'Full JSON report'
+
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
+
+branding:
+  icon: 'file-text'
+  color: 'orange'

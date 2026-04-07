@@ -1,0 +1,24 @@
+{
+  "name": "driftmd-monorepo",
+  "private": true,
+  "license": "MIT",
+  "author": "Ijtihed",
+  "engines": {
+    "node": ">=20"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo build",
+    "test": "turbo test",
+    "lint": "turbo lint",
+    "dev": "turbo dev"
+  },
+  "packageManager": "npm@10.9.2",
+  "devDependencies": {
+    "turbo": "^2",
+    "typescript": "^5.7",
+    "vitest": "^3"
+  }
+}
