@@ -29,6 +29,12 @@ npx driftmd
 
 Run in any repo. Zero config. Finds your README, cross-references it against your codebase, reports every lie.
 
+## How It Works
+
+1. **README claims** something: "config lives in `src/config.yaml`", "run with `--verbose`", "set `REDIS_HOST`"
+2. **driftmd scans** your actual codebase: checks if the file exists, if the flag is in the argparser, if the env var is ever read
+3. **Drift caught**: file was deleted, flag was removed, env var is unused, badge is outdated. You fix it before users notice.
+
 ## Two Modes
 
 **Quick mode** (default) checks what can be verified with zero false positives:
