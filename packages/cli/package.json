@@ -14,7 +14,7 @@
     "dev": "tsc --watch"
   },
   "dependencies": {
-    "@driftmd/core": "^0.1.0",
+    "driftmd-core": "^0.1.0",
     "commander": "^13",
     "picocolors": "^1"
   },

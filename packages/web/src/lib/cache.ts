@@ -1,4 +1,4 @@
-import type { DriftReport } from '@driftmd/core';
+import type { DriftReport } from 'driftmd-core';
 
 export interface CachedReport {
   id: string;

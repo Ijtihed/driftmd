@@ -1,5 +1,5 @@
 import pc from 'picocolors';
-import type { DriftReport, Finding } from '@driftmd/core';
+import type { DriftReport, Finding } from 'driftmd-core';
 import { VERSION } from '../version.js';
 
 export function printConsoleReport(report: DriftReport, verifyMode = false): void {

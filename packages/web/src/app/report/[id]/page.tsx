@@ -6,7 +6,7 @@ import Header from '@/components/header';
 import Footer from '@/components/footer';
 import ReadmeViewer from '@/components/readme-viewer';
 import FindingCard from '@/components/finding-card';
-import type { DriftReport } from '@driftmd/core';
+import type { DriftReport } from 'driftmd-core';
 
 interface CachedReport {
   id: string;

@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useRef } from 'react';
-import type { Finding } from '@driftmd/core';
+import type { Finding } from 'driftmd-core';
 
 interface ReadmeViewerProps {
   content: string;

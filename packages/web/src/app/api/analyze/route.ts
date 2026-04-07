@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { analyzeDrift } from '@driftmd/core';
+import { analyzeDrift } from 'driftmd-core';
 import { nanoid } from 'nanoid';
 import { cloneRepo, cleanup, readReadmeContent } from '@/lib/github';
 import { setReport } from '@/lib/cache';

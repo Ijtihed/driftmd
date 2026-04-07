@@ -1,8 +1,8 @@
 import * as fs from 'node:fs';
 import * as core from '@actions/core';
 import * as github from '@actions/github';
-import { analyzeDrift } from '@driftmd/core';
-import type { DriftConfig, ChecksConfig, VerifyConfig } from '@driftmd/core';
+import { analyzeDrift } from 'driftmd-core';
+import type { DriftConfig, ChecksConfig, VerifyConfig } from 'driftmd-core';
 import { formatPRComment } from './reporter/pr-comment.js';
 import { formatSarif } from './reporter/sarif.js';
 

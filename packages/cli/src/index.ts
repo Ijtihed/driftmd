@@ -1,8 +1,8 @@
 import * as fs from 'node:fs';
 import * as path from 'node:path';
 import { Command } from 'commander';
-import { analyzeDrift } from '@driftmd/core';
-import type { DriftConfig, DriftReport, ChecksConfig, Severity, VerifyConfig } from '@driftmd/core';
+import { analyzeDrift } from 'driftmd-core';
+import type { DriftConfig, DriftReport, ChecksConfig, Severity, VerifyConfig } from 'driftmd-core';
 import { loadConfig } from './config.js';
 import { printConsoleReport } from './reporter/console.js';
 import { printJsonReport } from './reporter/json.js';

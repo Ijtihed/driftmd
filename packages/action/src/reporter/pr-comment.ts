@@ -1,4 +1,4 @@
-import type { DriftReport, Finding } from '@driftmd/core';
+import type { DriftReport, Finding } from 'driftmd-core';
 
 export function formatPRComment(report: DriftReport): string {
   if (report.findings.length === 0) {

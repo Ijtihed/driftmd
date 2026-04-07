@@ -1,4 +1,4 @@
-import type { DriftReport } from '@driftmd/core';
+import type { DriftReport } from 'driftmd-core';
 import { VERSION } from '../version.js';
 
 interface SarifLog {

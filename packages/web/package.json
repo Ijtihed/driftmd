@@ -10,7 +10,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@driftmd/core": "^0.1.0",
+    "driftmd-core": "^0.1.0",
     "next": "^15",
     "react": "^19",
     "react-dom": "^19",

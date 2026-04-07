@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import type { Finding } from '@driftmd/core';
+import type { Finding } from 'driftmd-core';
 
 interface FindingCardProps {
   finding: Finding;

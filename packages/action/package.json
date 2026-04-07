@@ -11,7 +11,7 @@
   "dependencies": {
     "@actions/core": "^1",
     "@actions/github": "^6",
-    "@driftmd/core": "^0.1.0"
+    "driftmd-core": "^0.1.0"
   },
   "devDependencies": {
     "@types/node": "^22",

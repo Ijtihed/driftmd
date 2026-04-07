@@ -1,5 +1,5 @@
 {
-  "name": "@driftmd/core",
+  "name": "driftmd-core",
   "version": "0.1.0",
   "description": "Semantic drift detection engine — cross-references READMEs against your codebase",
   "type": "module",

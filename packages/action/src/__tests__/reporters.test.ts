@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import { formatPRComment } from '../reporter/pr-comment.js';
 import { formatSarif } from '../reporter/sarif.js';
-import type { DriftReport } from '@driftmd/core';
+import type { DriftReport } from 'driftmd-core';
 
 const mockReport: DriftReport = {
   readme: 'README.md',

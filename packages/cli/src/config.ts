@@ -1,6 +1,6 @@
 import * as fs from 'node:fs';
 import * as path from 'node:path';
-import type { DriftConfig } from '@driftmd/core';
+import type { DriftConfig } from 'driftmd-core';
 
 const CONFIG_FILES = [
   '.driftmdrc.json',
