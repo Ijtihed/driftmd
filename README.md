@@ -1,5 +1,7 @@
 <div align="center">
 
+<img width="1865" height="938" alt="image" src="https://github.com/user-attachments/assets/b1c483e2-c4e8-4e81-9d72-0d5794ad63c1" />
+
 <h1>driftmd.</h1>
 <h3><em>Your README is lying. driftmd catches it.</em></h3>
 
