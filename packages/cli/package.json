@@ -1,13 +1,13 @@
 {
   "name": "driftmd",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Your README is lying. driftmd catches it.",
   "type": "module",
   "main": "./dist/src/index.js",
   "bin": {
     "driftmd": "./dist/bin/driftmd.js"
   },
-  "files": ["dist"],
+  "files": ["dist", "README.md"],
   "scripts": {
     "build": "tsc",
     "test": "vitest run",
