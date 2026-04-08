@@ -1,0 +1,14 @@
+---
+description: Production URL and deployment context for the Next.js frontend
+globs: packages/web/**
+alwaysApply: false
+---
+
+# driftmd web — production URL
+
+The deployed frontend is **https://driftmd.vercel.app** (Vercel).
+
+When discussing or implementing anything about the **live site**, **public links**, **deployment verification**, or **what users see in production**, use that URL—not a placeholder and not localhost unless the task is explicitly about local dev (`next dev`).
+
+- Source for the site: monorepo path `packages/web` (Next.js App Router).
+- After changes that affect the public site, assume deployment goes through the Vercel project connected to this repo (typically production branch `main`).
