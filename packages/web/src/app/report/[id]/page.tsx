@@ -101,7 +101,7 @@ export default function ReportPage() {
   return (
     <>
       <Header />
-      <main className="flex-1 pt-24 pb-8 px-6 lg:px-10">
+      <main className="flex-1 px-6 pb-8 pt-24 lg:px-10">
         <div className="max-w-7xl mx-auto mb-8">
           <div className="flex items-baseline gap-4 mb-1">
             <h1 className="font-[Manrope] text-3xl sm:text-4xl font-light text-white tracking-tight">

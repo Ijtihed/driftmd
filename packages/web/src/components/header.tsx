@@ -1,17 +1,9 @@
 'use client';
 
-import Link from 'next/link';
-
 export default function Header() {
   return (
-    <header className="fixed top-0 left-0 w-full z-50 flex justify-between items-center px-10 py-4 mix-blend-difference">
-      <Link
-        href="/"
-        className="text-xl font-bold tracking-tighter text-white font-[Manrope] hover:opacity-70 transition-opacity"
-      >
-        driftmd
-      </Link>
-      <nav className="hidden md:flex gap-6">
+    <header className="fixed top-0 left-0 z-50 flex w-full items-center justify-end px-6 py-4 mix-blend-difference sm:px-10">
+      <nav className="flex gap-6">
         <a
           href="https://github.com/Ijtihed/driftmd"
           target="_blank"
